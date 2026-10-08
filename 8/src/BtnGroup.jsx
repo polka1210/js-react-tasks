@@ -3,9 +3,8 @@ import React from 'react';
 
 // BEGIN (write your solution here)
 function BtnGroup() {
-  // какая кнопка активна: 'left' | 'right' | null
-  const [active, setActive] = useState(null);
 
+ const [active, setActive] = React.useState(null);
   return (
     <div className="btn-group" role="group">
       <button
