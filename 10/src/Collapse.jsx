@@ -3,7 +3,7 @@ import cn from 'classnames';
 
 // BEGIN (write your solution here)
 function Collapse({ text, opened = true }) {
-  const [isOpen, setIsOpen] = useState(opened);
+  const [isOpen, setIsOpen] = React.useState(opened);
 
   const handleClick = (e) => {
     e.preventDefault();
