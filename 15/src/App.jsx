@@ -26,7 +26,7 @@ const themes = [
 
 class App extends React.Component {
   // BEGIN (write your solution here)
-constructor(props) {
+ constructor(props) {
     super(props);
     this.state = {
       theme: themes[0],

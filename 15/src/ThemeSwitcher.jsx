@@ -5,7 +5,9 @@ import ThemeContext from './contexts';
 
 class ThemeSwitcher extends React.Component {
   // BEGIN (write your solution here)
- render() {
+static contextType = ThemeContext;
+
+  render() {
     const { themes, theme, setTheme } = this.context;
 
     return (
